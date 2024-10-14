@@ -1,5 +1,5 @@
 .gridOfProducts {
-  background-color: aqua;
+  background-color: lightgrey;
   display: grid;
   border-style: groove;
   border-width: 10px;
@@ -21,4 +21,24 @@ h1 {
 
 .imgProduct {
   max-height: 250px;
+}
+
+.nameProduct {
+  font-size: 32px;
+  margin: 0;
+}
+.priceProduct {
+  font-size: 24px;
+  margin: 0;
+  color: green;
+  background-color: white;
+}
+.descriptionProduct {
+  text-align: center;
+  padding: 3px;
+}
+
+a {
+  text-align: center;
+  color: black;
 }
