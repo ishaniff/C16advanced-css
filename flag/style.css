@@ -1,0 +1,23 @@
+h1 {
+  color: gray;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  background-image: url(images/stars.png);
+  width: 594px;
+  height: 441px;
+}
+
+table tr:nth-child(odd) {
+  background-color: red;
+}
+
+table tr:nth-child(even) {
+  background-color: white;
+}
+
+th {
+  background-image: url(images/stars.png);
+}
