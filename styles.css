@@ -1,0 +1,19 @@
+.gridOfProducts {
+  background-color: aqua;
+  display: grid;
+  border-style: groove;
+  border-width: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.productBox {
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: red;
+}
