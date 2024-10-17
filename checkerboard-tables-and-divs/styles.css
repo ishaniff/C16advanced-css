@@ -1,0 +1,28 @@
+h1 {
+  color: pink;
+}
+
+.white {
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  background-color: white;
+}
+.black {
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  background-color: black;
+}
+body {
+  background-color: purple;
+}
+
+table td {
+  display: flex;
+  padding: 0;
+}
+* {
+  margin: auto;
+  text-align: center;
+}
