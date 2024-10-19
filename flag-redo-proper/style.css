@@ -1,7 +1,6 @@
 h1 {
   color: black;
   text-align: center;
-  background-color: aqua;
 }
 
 table tr:nth-child(odd) {
@@ -17,7 +16,7 @@ table {
   width: 100%;
 }
 table tr {
-  width: 100%;
+  width: 100vw;
   height: 61px;
   background-color: black;
 }
@@ -26,4 +25,8 @@ table tr {
 }
 body {
   background-color: hotpink;
+}
+
+body {
+  padding: 0;
 }
